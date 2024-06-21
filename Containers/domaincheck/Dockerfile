@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:latest
-FROM alpine:3.19.1
+FROM alpine:3.20.1
 RUN set -ex; \
     apk add --no-cache bash lighttpd netcat-openbsd; \
     adduser -S www-data -G www-data; \
